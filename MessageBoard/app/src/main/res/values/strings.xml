@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Message</string>
+    <string name="Add">新增</string>
+    <string name="Edit">修改</string>
+    <string name="Delete">刪除</string>
+    <string name="DeleteMessage">確定刪除?</string>
+    <string name="Yes">確定</string>
+    <string name="No">取消</string>
+    <string name="Title">標題</string>
+    <string name="Message">內容</string>
+    <string name="Tip1">標題未填寫</string>
+</resources>

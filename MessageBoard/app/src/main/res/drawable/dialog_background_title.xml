@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 圓角角度 -->
+    <corners android:topLeftRadius="10dip"
+             android:topRightRadius="10dip"/>
+
+    <!-- 背景 -->
+    <solid android:color="@color/Dialog_Background_Title"/>
+
+</shape>

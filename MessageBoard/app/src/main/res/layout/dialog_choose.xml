@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_background"
+    android:orientation="horizontal"
+    android:padding="15dp">
+
+    <LinearLayout
+        android:id="@+id/LinearEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:text="@string/Edit"
+            android:textSize="20sp"
+            android:textColor="@color/Text" />
+
+        <TextView
+            android:id="@+id/IconEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="35sp"
+            android:textColor="@color/Text"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:text="@string/Delete"
+            android:textSize="20sp"
+            android:textColor="@color/Text" />
+
+        <TextView
+            android:id="@+id/IconDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="35sp"
+            android:textColor="@color/Text"/>
+
+    </LinearLayout>
+
+</LinearLayout>
